@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
+import { Navbar } from "../components/navBar";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <div className={utilStyles.container}></div>
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm Chris. I'm a software engineer with a year of experience. I

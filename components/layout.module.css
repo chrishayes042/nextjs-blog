@@ -13,3 +13,9 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.navBar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
