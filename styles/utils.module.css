@@ -19,6 +19,12 @@
   line-height: 1.5;
 }
 
+.headingMd {
+  font-size: 1rem;
+  line-height: 1;
+  font-family: "Courier New", monospace;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
